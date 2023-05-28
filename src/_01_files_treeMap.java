@@ -19,8 +19,6 @@ public class _01_files_treeMap {
             }
         }
 
-//        System.out.println(fileMap);
-
 
         for(String key : fileMap.keySet()){
 
