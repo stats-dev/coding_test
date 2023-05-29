@@ -7,6 +7,7 @@ public class _01_files_treeMap {
         sc.nextLine();
 
         String[] fileArr = new String[N];
+//        TreeMap은 자체적으로 Key를 오름차순으로 정렬합니다.
         Map<String, Integer> fileMap = new TreeMap<>();
 
         for(int i = 0; i < fileArr.length; i++){
