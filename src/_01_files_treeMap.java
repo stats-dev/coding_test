@@ -23,6 +23,7 @@ public class _01_files_treeMap {
         // 향상된 for문을 활용해서 출력.
         for(String key : fileMap.keySet()){
 
+            // 문자열을 연결한다.
             System.out.println(key + " " + fileMap.get(key));
         }
 
