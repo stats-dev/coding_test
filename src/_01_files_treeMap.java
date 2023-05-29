@@ -2,6 +2,7 @@ import java.util.*;
 
 public class _01_files_treeMap {
     public static void main(String[] args) {
+//        scanner updates
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         sc.nextLine();
