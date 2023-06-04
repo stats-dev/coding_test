@@ -18,11 +18,11 @@ public class _01_files {
         System.out.println(fileMap);
 
 //        키로 정렬시킨다.
-        List<String> keySet = new ArrayList<>(fileMap.keySet());
+        List<String> keySet = new ArrayList<String>(fileMap.keySet());
 
         // 키 값으로 오름차순 정렬
-        Collections.sort(keySet);
-
+        Collections.sort(keySet, Collections.reverseOrder());
+        System.out.println(keySet);
         for(String key : keySet){
 
             System.out.println(key + " " + fileMap.get(key));
