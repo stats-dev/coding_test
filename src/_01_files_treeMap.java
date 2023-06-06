@@ -26,6 +26,9 @@ public class _01_files_treeMap {
 
             // 문자열을 연결한다.
             System.out.println(key + " " + fileMap.get(key));
+
+            // 문자열을 다르게 출력한다.
+            System.out.println(key + ":" + fileMap.get(key));
         }
 
 
